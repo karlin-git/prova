@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Adega do KR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Adega do KR</h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="produto.html">Produtos</a>
+    <a href="new.html">Cadastro</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<main>
+  <section class="formulario">
+    <h2>Cadastro de Cliente</h2>
+
+    <form>
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+
+      <label for="telefone">Telefone / WhatsApp</label>
+      <input type="tel" id="telefone" placeholder="(00) 00000-0000" required>
+
+      <label for="endereco">Endereço para entrega</label>
+      <input type="text" id="endereco" placeholder="Rua, número, bairro" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="Digite seu e-mail" required>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Crie uma senha" required>
+
+      <label for="preferencia">Preferência de compra</label>
+      <select id="preferencia" required>
+        <option value="">Selecione uma opção</option>
+        <option>Cervejas</option>
+        <option>Combos</option>
+        <option>Refrigerantes</option>
+        <option>Energéticos</option>
+        <option>Água e gelo</option>
+      </select>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <p>Já tem conta? <a href="login.html">Entrar</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Adega do KR</p>
+</footer>
+
+</body>
+</html>
